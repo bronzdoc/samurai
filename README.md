@@ -2,5 +2,6 @@
 
 ## Installation
 
-Plugin 'bronzdoc/blackwolf'
+<code> Plugin 'bronzdoc/blackwolf' </code>
 
+![alt tag](http://i.imgur.com/BRtioX8.png)
