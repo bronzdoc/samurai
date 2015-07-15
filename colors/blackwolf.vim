@@ -1,4 +1,4 @@
-" Maintainer: 	Luis Sagastume
+" Maintainer:   Luis Sagastume
 " Version:      1.0
 
 set background=dark
@@ -12,21 +12,22 @@ endif
 let colors_name = "blackwolf"
 
 " General colors
-hi Cursor 		   guibg=#626262 gui=none ctermbg=241
-hi Normal 		   guifg=#e2e2e5 guibg=#111111 gui=none ctermfg=253 ctermbg=234
-hi NonText 		   guifg=#808080 guibg=#111111 gui=none ctermfg=244 ctermbg=235
-hi StatusLine 	           guifg=#d3d3d5 guibg=#303030 gui=none ctermfg=253 ctermbg=238
-hi StatusLineNC            guifg=#939395 guibg=#303030 gui=none ctermfg=246 ctermbg=238
-hi VertSplit 	           guifg=#444444 guibg=#303030 gui=none ctermfg=238 ctermbg=238
-hi Folded 	           guibg=#384048 guifg=#a0a8b0 gui=none ctermbg=4 ctermfg=248
-hi Title	           guifg=#f6f3e8 guibg=NONE	gui=bold ctermfg=254 cterm=bold
-hi Visual	           guifg=#00f0ff guibg=#3c414c gui=none ctermfg=254 ctermbg=4
-hi SpecialKey	           guifg=#808080 guibg=#343434 gui=none ctermfg=244 ctermbg=236
-hi CursorLine              ctermbg=235   cterm=none
-hi CursorColumn            ctermbg=235   cterm=none
-hi LineNr                  ctermfg=239 ctermbg=235
+hi Cursor          guibg=#626262 gui=none ctermbg=241
+hi Normal          guifg=#e2e2e5 guibg=#111111 gui=none ctermfg=253 ctermbg=234
+hi NonText         guifg=#808080 guibg=#111111 gui=none ctermfg=244 ctermbg=235
+hi StatusLine      guifg=#d3d3d5 guibg=#303030 gui=none ctermfg=253 ctermbg=238
+hi StatusLineNC    guifg=#939395 guibg=#303030 gui=none ctermfg=246 ctermbg=238
+hi VertSplit       guifg=#444444 guibg=#303030 gui=none ctermfg=238 ctermbg=238
+hi Folded          guibg=#384048 guifg=#a0a8b0 gui=none ctermbg=237 ctermfg=9
+hi Title           guifg=#f6f3e8 guibg=NONE    gui=bold ctermfg=254 cterm=bold
+hi Visual          guifg=#00f0ff guibg=#3c414c gui=none ctermfg=9   ctermbg=237
+hi SpecialKey      guifg=#808080 guibg=#343434 gui=none ctermfg=237
+hi CursorLine      ctermbg=235   cterm=none
+hi CursorColumn    ctermbg=235   cterm=none
+hi LineNr          ctermfg=240   ctermbg=234
+hi CursorLineNr    ctermfg=87
+hi SignColumn      ctermbg=234
 
-"
 " Support for 256-color terminal
 "
 if &t_Co > 255
@@ -37,7 +38,7 @@ hi Folded                    guifg=#000000 guibg=#444444 gui=NONE
 
 " Invisible Characters
 " ------------------
-hi NonText                   guifg=# gui=NONE
+hi NonText                   guifg=#ffffff gui=NONE
 hi SpecialKey                guifg=#000000 gui=NONE
 
 " Misc
@@ -56,7 +57,8 @@ hi PMenuSbar                 guibg=#000000 gui=NONE
 " thumb of the scrollbar in the popup
 hi PMenuThumb                guibg=#000000 gui=NONE
 hi Comment                   guifg=#000000 gui=italic ctermfg=60
-hi Todo                      guifg=#000000 guibg=NONE gui=italic ctermfg=226 ctermbg=none cterm=bold
+hi Todo                      guifg=#000000 guibg=NONE gui=italic ctermfg=87 ctermbg=none cterm=bold
+hi special                   ctermfg=133 ctermbg=none cterm=bold
 hi Operator                  ctermfg=243
 hi Constant                  guifg=#000000 ctermfg=197
 hi Define                    guifg=#000000 ctermfg=197
@@ -74,7 +76,7 @@ hi Statement                 guifg=#000000 gui=NONE ctermfg=190 cterm=NONE
 hi String                    guifg=#000000 ctermfg=197
 hi Delimiter                 guifg=#000000 ctermfg=197
 hi Title                     guifg=#000000 ctermfg=255
-hi Type                      guifg=#000000 gui=NONE ctermfg=243 cterm=bold
+hi Type                      guifg=#000000 gui=NONE ctermfg=159 cterm=bold
 hi DiffAdd                   guifg=#000000 guibg=#144212
 hi DiffDelete                guifg=#000000 guibg=#660000
 hi link htmlTag              xmlTag
