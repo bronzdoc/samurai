@@ -9,7 +9,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "blackwolf"
+let colors_name = "samurai"
 
 " General colors
 hi Cursor          guibg=#626262 gui=none ctermbg=241
