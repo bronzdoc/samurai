@@ -2,5 +2,5 @@
 
 ## Installation
 
-    <code> Plugin 'bronzdoc/blackwolf' </code>
+Plugin 'bronzdoc/blackwolf'
 
