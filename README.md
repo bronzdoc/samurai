@@ -2,6 +2,6 @@
 
 ## Installation
 
-<code> Plugin 'bronzdoc/blackwolf' </code>
+<code> Plugin 'bronzdoc/samurai' </code>
 
 ![alt tag](http://i.imgur.com/BRtioX8.png)
