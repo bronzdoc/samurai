@@ -27,6 +27,7 @@ hi CursorColumn    ctermbg=235   cterm=none
 hi LineNr          ctermfg=240   ctermbg=234
 hi CursorLineNr    ctermfg=87
 hi SignColumn      ctermbg=234
+hi Search          guifg=#00f0ff guibg=#3c414c gui=none ctermfg=9   ctermbg=237
 
 " Support for 256-color terminal
 "
