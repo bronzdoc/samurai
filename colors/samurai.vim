@@ -24,10 +24,11 @@ hi Visual          guifg=#00f0ff guibg=#3c414c gui=none ctermfg=9   ctermbg=237
 hi SpecialKey      guifg=#808080 guibg=#343434 gui=none ctermfg=237
 hi CursorLine      ctermbg=235   cterm=none
 hi CursorColumn    ctermbg=235   cterm=none
-hi LineNr          ctermfg=240   ctermbg=234
-hi CursorLineNr    ctermfg=87
+hi LineNr          ctermfg=239   ctermbg=234
+hi CursorLineNr    ctermfg=51
 hi SignColumn      ctermbg=234
 hi Search          guifg=#00f0ff guibg=#3c414c gui=none ctermfg=9   ctermbg=237
+hi ColorColumn ctermbg=9
 
 " Support for 256-color terminal
 "
@@ -68,9 +69,9 @@ hi Function                  guifg=#000000 gui=NONE ctermfg=243 cterm=NONE
 hi Identifier                guifg=#000000 gui=NONE ctermfg=243 cterm=NONE
 hi Include                   guifg=#000000 gui=NONE ctermfg=243 cterm=NONE
 hi Keyword                   guifg=#000000 ctermfg=255 cterm=NONE
-hi Macro                     guifg=#000000 gui=NONE ctermfg=255
+hi Macro                     guifg=#000000 gui=NONE ctermfg=157
 hi Number                    guifg=#000000 ctermfg=205
-hi PreCondit                 guifg=#000000 gui=NONE ctermfg=255 cterm=NONE
+hi PreCondit                 guifg=#000000 gui=NONE ctermfg=190 cterm=NONE
 hi Conditional               guifg=#000000 gui=NONE ctermfg=197 cterm=NONE
 hi PreProc                   guifg=#000000 gui=NONE ctermfg=229
 hi Statement                 guifg=#000000 gui=NONE ctermfg=190 cterm=NONE
