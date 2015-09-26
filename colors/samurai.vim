@@ -62,25 +62,25 @@ hi Comment                   guifg=#000000 gui=italic ctermfg=60
 hi Todo                      guifg=#000000 guibg=NONE gui=italic ctermfg=87 ctermbg=none cterm=bold
 hi special                   ctermfg=133 ctermbg=none cterm=bold
 hi Operator                  ctermfg=243
-hi Constant                  guifg=#000000 ctermfg=197
-hi Define                    guifg=#000000 ctermfg=197
-hi Error                     guifg=#000000 guibg=#990000 ctermfg=255 ctermbg=0
-hi Function                  guifg=#000000 gui=NONE ctermfg=243 cterm=NONE
-hi Identifier                guifg=#000000 gui=NONE ctermfg=243 cterm=NONE
-hi Include                   guifg=#000000 gui=NONE ctermfg=243 cterm=NONE
-hi Keyword                   guifg=#000000 ctermfg=255 cterm=NONE
-hi Macro                     guifg=#000000 gui=NONE ctermfg=157
-hi Number                    guifg=#000000 ctermfg=205
-hi PreCondit                 guifg=#000000 gui=NONE ctermfg=190 cterm=NONE
-hi Conditional               guifg=#000000 gui=NONE ctermfg=197 cterm=NONE
-hi PreProc                   guifg=#000000 gui=NONE ctermfg=229
-hi Statement                 guifg=#000000 gui=NONE ctermfg=190 cterm=NONE
-hi String                    guifg=#000000 ctermfg=197
-hi Delimiter                 guifg=#000000 ctermfg=197
-hi Title                     guifg=#000000 ctermfg=255
-hi Type                      guifg=#000000 gui=NONE ctermfg=159 cterm=bold
-hi DiffAdd                   guifg=#000000 guibg=#144212
-hi DiffDelete                guifg=#000000 guibg=#660000
+hi Constant                  ctermfg=197
+hi Define                    ctermfg=197
+hi Error                     guibg=#990000 ctermfg=255 ctermbg=0
+hi Function                  gui=NONE ctermfg=243 cterm=NONE
+hi Identifier                gui=NONE ctermfg=243 cterm=NONE
+hi Include                   gui=NONE ctermfg=243 cterm=NONE
+hi Keyword                   ctermfg=197 cterm=NONE
+hi Macro                     gui=NONE ctermfg=157
+hi Number                    ctermfg=205
+hi PreCondit                 gui=NONE ctermfg=190 cterm=NONE
+hi Conditional               gui=NONE ctermfg=197 cterm=NONE
+hi PreProc                   gui=NONE ctermfg=229
+hi Statement                 gui=NONE ctermfg=190 cterm=NONE
+hi String                    ctermfg=197
+hi Delimiter                 ctermfg=197
+hi Title                     ctermfg=255
+hi Type                      gui=NONE ctermfg=159 cterm=bold
+hi DiffAdd                   guibg=#144212
+hi DiffDelete                guibg=#660000
 hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName
 hi link htmlEndTag           xmlEndTag
