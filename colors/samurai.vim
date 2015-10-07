@@ -75,8 +75,8 @@ hi PreCondit                 gui=NONE ctermfg=190 cterm=NONE
 hi Conditional               gui=NONE ctermfg=197 cterm=NONE
 hi PreProc                   gui=NONE ctermfg=229
 hi Statement                 gui=NONE ctermfg=190 cterm=NONE
-hi String                    ctermfg=197
-hi Delimiter                 ctermfg=197
+hi String                    ctermfg=225
+hi Delimiter                 ctermfg=225
 hi Title                     ctermfg=255
 hi Type                      gui=NONE ctermfg=159 cterm=bold
 hi DiffAdd                   guibg=#144212
