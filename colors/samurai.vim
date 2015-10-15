@@ -58,7 +58,7 @@ hi Macro                     ctermfg=157
 hi Number                    ctermfg=205
 hi PreCondit                 ctermfg=190 cterm=none
 hi Conditional               ctermfg=197 cterm=none
-hi PreProc                   ctermfg=229
+hi PreProc                   ctermfg=123
 hi Statement                 ctermfg=190 cterm=none
 hi String                    ctermfg=225
 hi Delimiter                 ctermfg=225
