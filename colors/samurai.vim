@@ -1,5 +1,5 @@
 " Maintainer:   Luis Sagastume
-" Version:      1.1.0
+" Version:      0.0.0
 
 set background=dark
 
