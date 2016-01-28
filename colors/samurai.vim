@@ -13,23 +13,23 @@ let colors_name = "samurai"
 
 " General colors
 hi Cursor          guifg=NONE    guibg=#626262 gui=NONE      ctermfg=NONE     ctermbg=241  cterm=NONE
-hi Normal          guifg=#e2e2e5 guibg=none    gui=NONE      ctermfg=253      ctermbg=234  cterm=NONE
+hi Normal          guifg=#E2E2E5 guibg=none    gui=NONE      ctermfg=253      ctermbg=234  cterm=NONE
 hi NonText         guifg=#808080 guibg=#111111 gui=NONE      ctermfg=244      ctermbg=235  cterm=NONE
 hi statusline      guifg=#d3d3d5 guibg=#303030 gui=NONE      ctermfg=253      ctermbg=238  cterm=NONE
 hi StatusLineNC    guifg=#939395 guibg=#303030 gui=NONE      ctermfg=246      ctermbg=238  cterm=NONE
 hi VertSplit       guifg=#444444 guibg=#303030 gui=NONE      ctermfg=238      ctermbg=238  cterm=NONE
-hi Folded          guifg=#a0a8b0 guibg=#384048 gui=NONE      ctermfg=9        ctermbg=237  cterm=NONE
-hi Title           guifg=#f6f3e8 guibg=NONE    gui=BOLD      ctermfg=254      ctermbg=NONE cterm=BOLD
-hi Visual          guifg=#87ffd7 guibg=#3a3a3a gui=NONE      ctermfg=122      ctermbg=237  cterm=NONE
-hi SpecialKey      guifg=#3a3a3a guibg=NONE    gui=NONE      ctermfg=237      ctermbg=NONE cterm=NONE
-hi CursorLine      guifg=NONE    guibg=#303030 gui=NONE      ctermfg=NONE     ctermbg=236  cterm=NONE
-hi CursorColumn    guifg=NONE    guibg=#303030 gui=NONE      ctermfg=NONE     ctermbg=236  cterm=NONE
-hi LineNr          guifg=#4e4e4e guibg=#1c1c1c gui=NONE      ctermfg=239      ctermbg=234  cterm=NONE
-hi CursorLineNr    guifg=#00ffff guibg=NONE    gui=NONE      ctermfg=51       ctermbg=NONE cterm=NONE
+hi Folded          guifg=#A0A8B0 guibg=#384048 gui=NONE      ctermfg=9        ctermbg=237  cterm=NONE
+hi Title           guifg=#F6F3E8 guibg=NONE    gui=BOLD      ctermfg=254      ctermbg=NONE cterm=BOLD
+hi Visual          guifg=#87FFD7 guibg=#3A3A3A gui=NONE      ctermfg=122      ctermbg=237  cterm=NONE
+hi SpecialKey      guifg=#3A3A3A guibg=NONE    gui=NONE      ctermfg=237      ctermbg=NONE cterm=NONE
+hi CursorLine      guifg=NONE    guibg=#1C1C1C gui=NONE      ctermfg=NONE     ctermbg=235  cterm=NONE
+hi CursorColumn    guifg=NONE    guibg=#1C1C1C gui=NONE      ctermfg=NONE     ctermbg=235  cterm=NONE
+hi LineNr          guifg=#4E4E4E guibg=#121212 gui=NONE      ctermfg=239      ctermbg=234  cterm=NONE
+hi CursorLineNr    guifg=#00FFFF guibg=NONE    gui=NONE      ctermfg=51       ctermbg=NONE cterm=NONE
 hi SignColumn      guifg=NONE    guibg=#1c1c1c gui=NONE      ctermfg=NONE     ctermbg=234  cterm=NONE
-hi Search          guifg=#87ffd7 guibg=#3a3a3a gui=UNDERLINE ctermfg=122      ctermbg=237  cterm=UNDERLINE
-hi ColorColumn     guifg=#ff0000 guibg=NONE    gui=NONE      ctermfg=NONE     ctermbg=9    cterm=NONE
-hi MatchParen      guifg=#87ffd7 guibg=NONE    gui=NONE      ctermfg=122      ctermbg=237  cterm=NONE
+hi Search          guifg=#87ffd7 guibg=#3A3A3A gui=UNDERLINE ctermfg=122      ctermbg=237  cterm=UNDERLINE
+hi ColorColumn     guifg=#FF0000 guibg=NONE    gui=NONE      ctermfg=NONE     ctermbg=9    cterm=NONE
+hi MatchParen      guifg=#87FFD7 guibg=NONE    gui=NONE      ctermfg=122      ctermbg=237  cterm=NONE
 
 
 " Support for 256-color terminal
