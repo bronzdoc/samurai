@@ -13,7 +13,7 @@ let colors_name = "samurai"
 
 " General colors
 hi Cursor          guifg=NONE    guibg=#626262 gui=NONE      ctermfg=NONE     ctermbg=241  cterm=NONE
-hi Normal          guifg=#E2E2E5 guibg=none    gui=NONE      ctermfg=253      ctermbg=234  cterm=NONE
+hi Normal          guifg=#E2E2E5 guibg=NONE    gui=NONE      ctermfg=253      ctermbg=234  cterm=NONE
 hi NonText         guifg=#808080 guibg=#111111 gui=NONE      ctermfg=244      ctermbg=235  cterm=NONE
 hi statusline      guifg=#d3d3d5 guibg=#303030 gui=NONE      ctermfg=253      ctermbg=238  cterm=NONE
 hi StatusLineNC    guifg=#939395 guibg=#303030 gui=NONE      ctermfg=246      ctermbg=238  cterm=NONE
