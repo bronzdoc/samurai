@@ -28,12 +28,9 @@ hi LineNr          guifg=#4E4E4E guibg=#121212 gui=NONE      ctermfg=239      ct
 hi CursorLineNr    guifg=#00FFFF guibg=NONE    gui=NONE      ctermfg=51       ctermbg=NONE cterm=NONE
 hi SignColumn      guifg=NONE    guibg=#1c1c1c gui=NONE      ctermfg=NONE     ctermbg=234  cterm=NONE
 hi Search          guifg=#87ffd7 guibg=#3A3A3A gui=UNDERLINE ctermfg=122      ctermbg=237  cterm=UNDERLINE
-hi ColorColumn     guifg=#FF0000 guibg=NONE    gui=NONE      ctermfg=NONE     ctermbg=9    cterm=NONE
 hi MatchParen      guifg=#87FFD7 guibg=NONE    gui=NONE      ctermfg=122      ctermbg=237  cterm=NONE
 hi StatusLine      guibg=#262626 guifg=#808474 gui=NONE      ctermbg=235      ctermfg=237  cterm=NONE
 hi ColorColumn     guibg=#ED1F59 guifg=NONE    gui=NONE      ctermbg=197      ctermfg=NONE cterm=NONE
-
-
 
 " Support for 256-color terminal
 "
