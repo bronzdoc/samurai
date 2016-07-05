@@ -33,37 +33,41 @@ hi StatusLine      guibg=#262626 guifg=#808474 gui=NONE      ctermbg=235      ct
 hi ColorColumn     guibg=#ED1F59 guifg=NONE    gui=NONE      ctermbg=197      ctermfg=NONE cterm=NONE
 hi ExtraWhitespace guibg=#EA0000 guifg=NONE    gui=NONE      ctermbg=9        ctermfg=NONE cterm=NONE
 
+" Ruby
+hi rubySymbol      guibg=NONE guifg=#FFD7FF   gui=NONE      ctermbg=9        ctermfg=NONE cterm=NONE
+
 " Support for 256-color terminal
 "
 if &t_Co > 255
-" Folds
-" -----
-" line used for closed folds
-hi Folded                    guifg=#00FFFF guibg=#3A3A3A ctermfg=51 ctermbg=237
+  " Folds
+  " -----
+  " line used for closed folds
+  hi Folded                    guifg=#00FFFF guibg=#3A3A3A ctermfg=51 ctermbg=237
 
-" Misc
-" ----
-" directory names and other special names in listings
-hi Directory                 guifg=#D7FF00 guibg=NONE    gui=NONE ctermfg=190 ctermbg=NONE cterm=NONE
-hi Comment                   guifg=#767676 guibg=NONE    gui=NONE ctermfg=60  ctermbg=NONE cterm=NONE
-hi Todo                      guifg=#5FFFFF guibg=NONE    gui=NONE ctermfg=87  ctermbg=NONE cterm=BOLD
-hi special                   guifg=#AF5FAF guibg=NONE    gui=NONE ctermfg=133 ctermbg=NONE cterm=BOLD
-hi Operator                  guifg=#767676 guibg=NONE    gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE
-hi Constant                  guifg=#FF3863 guibg=NONE    gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
-hi Define                    guifg=#F7005C guibg=NONE    gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
-hi Error                     guifg=#FFFFFF guibg=#FF0000 gui=NONE ctermfg=255 ctermbg=9    cterm=NONE
-hi Function                  guifg=#D6D6D6 guibg=NONE    gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE
-hi Identifier                guifg=#838095 guibg=NONE    gui=NONE ctermfg=117 ctermbg=NONE cterm=NONE
-hi Include                   guifg=#767676 guibg=NONE    gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE
-hi Keyword                   guifg=#F7005C guibg=NONE    gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
-hi Macro                     guifg=#AFFFAF guibg=NONE    gui=NONE ctermfg=157 ctermbg=NONE cterm=NONE
-hi Number                    guifg=#FF5FAF guibg=NONE    gui=NONE ctermfg=205 ctermbg=NONE cterm=NONE
-hi PreCondit                 guifg=#D7FF00 guibg=NONE    gui=NONE ctermfg=190 ctermbg=NONE cterm=NONE
-hi Conditional               guifg=#FF3863 guibg=NONE    gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
-hi PreProc                   guifg=#87FFFF guibg=NONE    gui=NONE ctermfg=123 ctermbg=NONE cterm=NONE
-hi Statement                 guifg=#D1FF38 guibg=NONE    gui=NONE ctermfg=190 ctermbg=NONE cterm=NONE
-hi String                    guifg=#FFD7FF guibg=NONE    gui=NONE ctermfg=225 ctermbg=NONE cterm=NONE
-hi Delimiter                 guifg=#FFFFFF guibg=NONE    gui=NONE ctermfg=225 ctermbg=NONE cterm=NONE
-hi Title                     guifg=#FFFFFF guibg=NONE    gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE
-hi Type                      guifg=#BBFAF9 guibg=NONE    gui=NONE ctermfg=159 ctermbg=NONE cterm=BOLD
+  " Misc
+  " ----
+  " directory names and other special names in listings
+  hi Directory                 guifg=#D7FF00 guibg=NONE    gui=NONE ctermfg=190 ctermbg=NONE cterm=NONE
+  hi Comment                   guifg=#767676 guibg=NONE    gui=NONE ctermfg=60  ctermbg=NONE cterm=NONE
+  hi Todo                      guifg=#5FFFFF guibg=NONE    gui=NONE ctermfg=87  ctermbg=NONE cterm=BOLD
+  hi special                   guifg=#AF5FAF guibg=NONE    gui=NONE ctermfg=133 ctermbg=NONE cterm=BOLD
+  hi Operator                  guifg=#767676 guibg=NONE    gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE
+  hi Constant                  guifg=#FF3863 guibg=NONE    gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
+  hi Define                    guifg=#F7005C guibg=NONE    gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
+  hi Error                     guifg=#FFFFFF guibg=#FF0000 gui=NONE ctermfg=255 ctermbg=9    cterm=NONE
+  hi Function                  guifg=#D6D6D6 guibg=NONE    gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE
+  hi Identifier                guifg=#838095 guibg=NONE    gui=NONE ctermfg=117 ctermbg=NONE cterm=NONE
+  hi Include                   guifg=#767676 guibg=NONE    gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE
+  hi Keyword                   guifg=#F7005C guibg=NONE    gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
+  hi Macro                     guifg=#AFFFAF guibg=NONE    gui=NONE ctermfg=157 ctermbg=NONE cterm=NONE
+  hi Number                    guifg=#FF5FAF guibg=NONE    gui=NONE ctermfg=205 ctermbg=NONE cterm=NONE
+  hi PreCondit                 guifg=#D7FF00 guibg=NONE    gui=NONE ctermfg=190 ctermbg=NONE cterm=NONE
+  hi Conditional               guifg=#FF3863 guibg=NONE    gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
+  hi PreProc                   guifg=#87FFFF guibg=NONE    gui=NONE ctermfg=123 ctermbg=NONE cterm=NONE
+  hi Statement                 guifg=#D1FF38 guibg=NONE    gui=NONE ctermfg=190 ctermbg=NONE cterm=NONE
+  hi String                    guifg=#FFD7FF guibg=NONE    gui=NONE ctermfg=225 ctermbg=NONE cterm=NONE
+  hi Delimiter                 guifg=#FFFFFF guibg=NONE    gui=NONE ctermfg=225 ctermbg=NONE cterm=NONE
+  hi Title                     guifg=#FFFFFF guibg=NONE    gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE
+  hi Type                      guifg=#BBFAF9 guibg=NONE    gui=NONE ctermfg=159 ctermbg=NONE cterm=BOLD
 endif
+
